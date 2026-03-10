@@ -1,0 +1,91 @@
+.channel-banner {
+    width: 100%;
+    height: 280px;
+    background: #000;
+    overflow: hidden;
+}
+
+.channel-banner img,
+.channel-avatar img,
+.video-thumb img,
+.featured-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.channel-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 50px;
+    background: #181818;
+    color: white;
+}
+
+.channel-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #7b2ff7;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.channel-details h1 {
+    font-size: 1.2rem;
+}
+
+.channel-details p {
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+.subscribe-btn {
+    margin-left: auto;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.subscribe-btn:hover {
+    background: #e0e0e0;
+}
+
+.subscribe-btn.subscribed {
+    background: #2a2a2a;
+    color: white;
+}
+
+.subscribe-btn.subscribed:hover {
+    background: #3a3a3a;
+}
+
+.channel-tabs {
+    display: flex;
+    gap: 10px;
+    padding: 0 50px;
+    background: #181818;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.tab {
+    padding: 14px 12px;
+    color: #aaa;
+    font-size: 0.85rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.tab:hover,
+.tab.active {
+    color: white;
+    border-bottom: 2px solid white;
+}

@@ -1,0 +1,99 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #181818;
+    padding: 10px 16px;
+    position: fixed;
+    inset: 0 0 auto 0;
+    z-index: 100;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbar-left {
+    gap: 30px;
+    font-size: 20px;
+    padding-left: 13px;
+    padding-right: 15px;
+}
+
+.navbar-right {
+    gap: 27px;
+    font-size: 1.4rem;
+}
+
+.navbar-center {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 730px;
+    gap: 10px;
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+}
+
+.navbar-center input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #2a2a2a;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    font-size: 1rem;
+    background: #121212;
+    color: white;
+}
+
+.navbar-center button {
+    padding: 0.545rem 0.875rem;
+    border: 0.24rem solid #2a2a2a;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    background: #2a2a2a;
+    color: white;
+    cursor: pointer;
+}
+
+.mic-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background: #2a2a2a;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.youtube-icon img {
+    width: 88px;
+}
+
+.bi-list {
+    cursor: pointer;
+}
+
+.bi-camera-video,
+.bi-bell,
+.bi-person-circle {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bi-patch-check-fill {
+    font-size: 1rem;
+    color: #aaa;
+    cursor: pointer;
+}
